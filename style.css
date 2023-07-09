@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{background-color:  hsl(233, 47%, 7%);
+    color: white;
+    font-size: 0.9375rem;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+height: 1000px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.container-1{
+background-color: hsl(244, 38%, 16%);
+height: 100%;
+padding-bottom: 30px;
+margin-top: 9.9375rem;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.span-1{
+    color:hsl(277, 64%, 61%);
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75) ;
+}
+.heading{
+    margin-top: 52px;
+    margin-left: 69px;
+    margin-right: 109px;
+    justify-content: left;
+    font-size: 1.3rem;
+}
+.data{
+    margin-left: 69px;
+    margin-top: 37px;
+}
+.reviews{
+    display: flex;
+    margin-top: 73px;
+    margin-left: 69px;
+    justify-content: space-between;
+    margin-right: 132px;
+}
+.reviews span{
+    color: hsla(0, 0%, 100%, 0.75)  ;
+    font-size: 0.625rem;
+}
+.container-2{
+    background-color: hsl(244, 38%, 16%);
+padding-bottom: 30px;
+margin-top: 9.9375rem;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+height: 336px;
+}.image-1{
+    display: flex;
+    border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+    width: 100%;
+    height:365px;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(244, 38%, 16%); 
+}
+@media(max-width:700px){
+    body {height: 3000px;
+    background-color:hsl(233, 51%, 21%) ;}
+    .main{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-2{
+        width: 420px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-bottom: -160px;
+    }
+    .container-1{
+        width: 420px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .image-1{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .reviews{
+        font-size: 1.25rem;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 120px;
+    }
+    .data{
+        font-size: 1rem;
+        height: 80px;
+        width: 390px;
+        margin-left: 35px;
+    }
+    .heading{
+        height: 80px;
+        width: 390px;
+        margin-left: 35px;
+    }
+}
